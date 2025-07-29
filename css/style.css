@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sunflower:wght@300&display=swap');
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1, h2, h3, h4, .logo-font {
+  font-family: "Sunflower", sans-serif;
+}
+
+/* 포트폴리오 섹션 */
+
+.card-img-top {
+    transition: transform .7s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* 포트폴리오 카드 배너 */
+.card-banner {
+    background-image: url(../img/card-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* 풋터 섹션 */
+footer {
+  background-color: black;
+}

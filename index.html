@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이젠 인테리어</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- 메인 섹션 시작 -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- 프로필 바 섹션 -->
+            <section class="col-md-5 col-lg-3">
+                <div class="rounded bg-dark text-white text-center p-4 my-3">
+                    <img src="./img/main-profile.jpg" alt="모델" class="img-fluid rounded-circle p-4">
+                    <h2 class="fs-4 py-3">이젠 Kim</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod corrupti consequuntur ex eligendi dolorum amet quam? Beatae accusantium facilis sint.</p>
+                    <div class="d-flex justify-content-evenly fs-4 py-3">
+                        <a href="https://www.youtube.com/watch?v=JGePtKE1brM" aria-label="유튜브" class="text-danger bi bi-youtube"></a>
+                        <a href="#" aria-label="페이스북" class="text-primary bi bi-facebook"></a>
+                        <a href="#" aria-label="인스타그램" class="text-warning bi bi-instagram"></a>
+                    </div>
+                </div>
+                <!-- 자격사항 리스트 -->
+                <div class="card bg-dark text-white text-center">
+                    <div class="card-header">
+                        <h3 class="fs-5 m-1">자격 사항</h3>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">자격사항1</li>
+                        <li class="list-group-item">자격사항2</li>
+                        <li class="list-group-item">자격사항3</li>
+                    </ul>
+                </div>
+                <!-- 경력사항 리스트 -->
+                <div class="card bg-dark text-white text-center mt-3">
+                    <div class="card-header">
+                        <h3 class="fs-5 m-1">경력 사항</h3>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p class="text-muted m-1">2000~2022</p>
+                            <p class="fw-bold m-1">Lorem, ipsum dolor.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="text-muted m-1">2000~2022</p>
+                            <p class="fw-bold m-1">Lorem, ipsum dolor.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="text-muted m-1">2000~2022</p>
+                            <p class="fw-bold m-1">Lorem, ipsum dolor.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="text-muted m-1">2000~2022</p>
+                            <p class="fw-bold m-1">Lorem, ipsum dolor.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- 포트폴리오 섹션-->
+            <section class="col-md-7 col-lg-9">
+                <div class="row">
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top ">
+                                <img src="./img/gallery1.jpg" alt="갤러리1" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h4>My 포트폴리오</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab eaque ullam aliquid doloremque saepe?</p>
+                                <button class="btn btn-outline-dark">스토리보기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top">
+                                <img src="./img/gallery2.jpg" alt="갤러리2" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h4>My 포트폴리오</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab eaque ullam aliquid doloremque saepe?</p>
+                                <button class="btn btn-outline-dark">스토리보기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 카드 배너 -->
+                    <div class="col-12 py-3">
+                        <div class="card text-center rounded">
+                            <div class="card-banner p-5">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-outline-light rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="bi bi-card-image"></i>&nbsp;&nbsp;&nbsp;자연으로 열린 공간
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="bi bi-card-image"></i>&nbsp;&nbsp;&nbsp;자연으로 열린 공간</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                                <p class="m-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi natus, hic reprehenderit a saepe officia.</p>
+                                                <img src="./img/modal-img.jpg" alt="모달" class="img-fluid p-1">
+                                                <p class="m-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, atque! Totam atque, repellat temporibus illum explicabo voluptatem quis fugiat dolorem?</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">닫기</button>
+                                            <button type="button" class="btn btn-outline-primary">뉴스 기사 보기</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top">
+                                <img src="./img/gallery3.jpg" alt="갤러리3" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h4>My 포트폴리오</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab eaque ullam aliquid doloremque saepe?</p>
+                                <button class="btn btn-outline-dark">스토리보기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top">
+                                <img src="./img/gallery4.jpg" alt="갤러리4" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h4>My 포트폴리오</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab eaque ullam aliquid doloremque saepe?</p>
+                                <button class="btn btn-outline-dark">스토리보기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top">
+                                <img src="./img/gallery5.jpg" alt="갤러리5" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h4>My 포트폴리오</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab eaque ullam aliquid doloremque saepe?</p>
+                                <button class="btn btn-outline-dark">스토리보기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top">
+                                <img src="./img/gallery6.jpg" alt="갤러리6" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h4>My 포트폴리오</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab eaque ullam aliquid doloremque saepe?</p>
+                                <button class="btn btn-outline-dark">스토리보기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- 메인 섹션 끝 -->
+    <!-- 풋터 섹션 시작 -->
+    <footer class="py-4">
+        <div class="container text-center text-white">
+            <div class="row">
+                <div class="d-flex justify-content-evenly my-3">
+                    <div class="col-md-4 px-5">
+                        <p class="fs-4"><img src="./img/logo.png" alt="로고">이젠 인테리어</p>
+                        <p class="px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim voluptatibus repellat voluptas corrupti quo delectus.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="fs-4 fw-bold">About Us</p>
+                        <ul class="list-unstyled">
+                            <li><a href="profile.html" class="link-underline link-underline-opacity-0 text-white">프로필</a></li>
+                            <li><a href="private-interior.html" class="link-underline link-underline-opacity-0 text-white">프라이빗 인테리어</a></li>
+                            <li><a href="business-interior.html" class="link-underline link-underline-opacity-0 text-white">비즈니스 인테리어</a></li>
+                            <li><a href="contact.html" class="link-underline link-underline-opacity-0 text-white">연락처</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="fs-4 fw-bold">소셜 미디어</p>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="link-underline link-underline-opacity-0 text-white">유튜브</a></li>
+                            <li><a href="#" class="link-underline link-underline-opacity-0 text-white">블로그</a></li>
+                            <li><a href="#" class="link-underline link-underline-opacity-0 text-white">인스타그램</a></li>
+                            <li><a href="#" class="link-underline link-underline-opacity-0 text-white">연락처</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="my-3"><i class="bi bi-c-circle"></i> ALL RIGHT RESERVED BY <span class="text-info">이젠 인테리어</span></p>
+        </div>
+    </footer>
+    <!-- 풋터 섹션 끝 -->
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
