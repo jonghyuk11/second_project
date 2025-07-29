@@ -7,6 +7,12 @@ body {
 h1, h2, h3, h4, .logo-font {
   font-family: "Sunflower", sans-serif;
 }
+/* 내비게이션 섹션 */
+.nav-link:hover,
+.nav-link.active {
+  color: blue !important;
+  font-weight: bold;
+}
 
 /* 포트폴리오 섹션 */
 
