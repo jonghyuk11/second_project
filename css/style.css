@@ -6,6 +6,7 @@ body {
 
 h1, h2, h3, h4, .logo-font {
   font-family: "Sunflower", sans-serif;
+  font-weight: 700px;
 }
 /* 내비게이션 섹션 */
 .nav-link:hover,
